@@ -8,7 +8,7 @@ country: "United Kingdom"      # lowercase two-letter ISO country code such as "
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "53.803610, -1.555145"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "July 03-05, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "09:00 - 5:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:30 - 5:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-07-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2017-07-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jarek Bryk", "Martin Callaghan", "Ian Carr", "Alastair Droop"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -198,6 +198,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+
+<p>
+Please not that this schedule is subject to change.
+</p>
+<p>
+We may change or update content as we progress through the workshop depending on the needs of the workshop attendees.
+</p>
 
 <!-- DO NOT EDIT SURVEY LINKS -->
 
